@@ -1,29 +1,54 @@
 /* PHASE 1: Reset */
 
-html, body, header, nav, h1, a,
-ul, li, strong, main, button, i,
-section, img, div, h2, p, form,
-fieldset, label, input, textarea,
-span, article, footer, time, small {
-  // margin:
-  // padding:
-  // border:
+html,
+body,
+header,
+nav,
+h1,
+a,
+ul,
+li,
+strong,
+main,
+button,
+i,
+section,
+img,
+div,
+h2,
+p,
+form,
+fieldset,
+label,
+input,
+textarea,
+span,
+article,
+footer,
+time,
+small {
+  margin: 0;
+  padding: 0;
+  border: none;
   // outline:
   // font:
   // color:
   // text-align:
   // text-decoration:
   // vertical-align:
-  // box-sizing:
+  box-sizing: inherit;
   // background:
 }
 
-ol, ul {
-  // list-style:
+ol,
+ul {
+  list-style: none;
 }
 
 img {
-  // display:
+  display: block;
+  width: 100%;
+  height: auto;
   // width:
   // height:
 }
@@ -45,11 +70,17 @@ button {
 
 button,
 input[type="submit"] {
-  // cursor:
+  cursor: pointer;
 }
 
 /* Clearfix */
 
-.group:after {
-  // ...
+.cf {
+  content: '';
+  clear: both;
+  display: table;
 }
+
+// .group:after {
+//   // ...
+// }

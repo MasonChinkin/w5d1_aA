@@ -6,16 +6,20 @@ html {
 }
 
 body {
-	// ...
+	background: $gray;
+	width: 80%;
+	margin: 0 auto;
+	font-family: $serif;
+	font-size: 12px;
 }
 
 button {
-	// background-color:
+	background-color: $blue;
 	// border-color:
-	// color:
+	color: white;
 	// font-weight:
-	// padding:
-	// border-radius:
+	padding: 5px;
+	border-radius: 3px;
 	// transition:
 	// font-family:
 	// text-transform:
@@ -24,8 +28,7 @@ button {
 }
 
 button:hover {
-	// background-color:
-	// border-color:
+	background-color: $light-blue // border-color:
 }
 
 /*
@@ -38,7 +41,8 @@ hr {
 	background-color: $light-gray;
 }
 
-.hr-top, .hr-bottom {
+.hr-top,
+.hr-bottom {
 	width: 100%;
 	margin: 0;
 }
