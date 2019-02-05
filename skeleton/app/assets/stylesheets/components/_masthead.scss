@@ -6,12 +6,15 @@
 	position: relative;
 }
 
+.masthead>* {
+	align-items: center;
+}
+
 .language-nav {
 	position: absolute;
 	top: -15px;
 	left: calc(50% - (177.78px/2));
-	background: white;
-	border: 1px solid $light-gray;
+	border: 1px solid white;
 	border-bottom: none;
 	border-top-left-radius: 3px;
 	border-top-right-radius: 3px;
@@ -22,7 +25,16 @@
 	text-transform: uppercase;
 	font-family: $sans-serif;
 	font-size: 10px;
-	color: $dark-gray;
+	color: white;
+	text-decoration: none;
+}
+
+.language-nav li:first-child {
+	font-weight: bold;
+}
+
+.language-nav a:hover {
+	text-decoration: underline;
 }
 
 .language-nav ul {
@@ -34,7 +46,7 @@
 	margin-top: 10px;
 }
 
-.masthead-links {
+.masthead-links ul {
 	display: flex;
 	font-family: $sans-serif;
 	font-size: 11px;
@@ -43,8 +55,13 @@
 }
 
 .masthead-links li {
-	margin-left: 10px;
+	margin-left: 5px;
+	padding: 5px;
 	border-right: 1px solid $light-gray;
+}
+
+.masthead-links li:last-child {
+	border-right: none;
 }
 
 .masthead-links button {
@@ -60,9 +77,18 @@
 }
 
 .masthead-links a,
-.masthead-links button, 
+.masthead-links button,
 .masthead-links time {
 	margin-right: 10px;
+	color: #000;
+}
+
+.masthead-links a {
+	text-decoration: none;
+}
+
+.masthead-links a:hover {
+	text-decoration: underline;
 }
 
 .masthead-links i {
