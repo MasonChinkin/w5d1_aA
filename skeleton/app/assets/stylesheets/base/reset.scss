@@ -30,14 +30,14 @@ small {
   margin: 0;
   padding: 0;
   border: none;
-  // outline:
-  // font:
-  // color:
+  // outline-style:
+  font: inherit;
+  color: inherit;
   // text-align:
   // text-decoration:
   // vertical-align:
   box-sizing: inherit;
-  // background:
+  background: transparent;
 }
 
 ol,
@@ -75,12 +75,12 @@ input[type="submit"] {
 
 /* Clearfix */
 
-.cf {
-  content: '';
-  clear: both;
-  display: table;
-}
-
-// .group:after {
-//   // ...
+// .cf {
+//   content: '';
+//   clear: both;
+//   display: table;
 // }
+
+.group:after {
+  // ...
+}

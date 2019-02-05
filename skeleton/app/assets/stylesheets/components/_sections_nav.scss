@@ -1,0 +1,27 @@
+.section-nav {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.section-nav li {
+  padding-right: 10px;
+}
+
+.section-nav li:last-child {
+  padding-right: 0px;
+}
+
+.section-nav a {
+  margin-right: 10px;
+  color: #000;
+}
+
+.section-nav a {
+  text-decoration: none;
+}
+
+.section-nav a:hover {
+  text-decoration: underline;
+}
